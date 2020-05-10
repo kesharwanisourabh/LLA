@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="appThememain" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#3f51b5</item>
+        <item name="colorPrimaryDark">#303f9f</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="appThemecontent" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2196f3</item>
+        <item name="colorPrimaryDark">#1976d2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="appThemecolor" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorPrimaryDark">#7B1FA2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="appThemenumber" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryDark">#F57C00</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="appThemefamily" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="appThemephrases" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#00BCD4</item>
+        <item name="colorPrimaryDark">#0097A7</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">88dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+</resources>

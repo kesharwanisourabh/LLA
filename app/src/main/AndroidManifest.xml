@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.lla">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_app_final"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_app_final"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".contentActivity" android:label="Contents" android:theme="@style/appThemecontent" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ColorsActivity" android:label="@string/category_colors" android:theme="@style/appThemecolor" android:parentActivityName=".contentActivity"/>
+        <activity android:name=".FamilyActivity" android:label="@string/category_family" android:theme="@style/appThemefamily" android:parentActivityName=".contentActivity"/>
+        <activity android:name=".NumbersActivity" android:label="@string/category_numbers" android:theme="@style/appThemenumber" android:parentActivityName=".contentActivity"/>
+        <activity android:name=".PhrasesActivity" android:label="@string/category_phrases" android:theme="@style/appThemephrases" android:parentActivityName=".contentActivity"/>
+        <activity android:name=".MainActivity" android:theme="@style/appThememain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
